@@ -22,6 +22,51 @@
         android:background="@drawable/tab_bg"
         android:orientation="horizontal">
 
+        <com.gjg.learn.weixindemo.CustomView
+            android:id="@+id/id_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:myIcon="@drawable/ic_menu_start_conversation"
+            app:text_size="12sp"
+            app:text="@string/app_name"
+            app:mColor="#ff45c01a"
+            />
+        <com.gjg.learn.weixindemo.CustomView
+            android:id="@+id/id_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:myIcon="@drawable/ic_menu_friendslist"
+            app:text_size="12sp"
+            app:text="@string/tab_contact"
+            app:mColor="#ff45c01a"
+            />
+        <com.gjg.learn.weixindemo.CustomView
+            android:id="@+id/id_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:myIcon="@drawable/ic_menu_allfriends"
+            app:text_size="12sp"
+            app:text="@string/tab_me"
+            app:mColor="#ff45c01a"
+            />
+        <com.gjg.learn.weixindemo.CustomView
+            android:id="@+id/id_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:myIcon="@drawable/ic_menu_emoticons"
+            app:text_size="12sp"
+            app:text="@string/tab_found"
+            app:mColor="#ff45c01a"
+            />
+
     </LinearLayout>
 
 
